@@ -1,0 +1,36 @@
+{
+  "name": "openrtb-parser",
+  "version": "1.0.0",
+  "description": "OpenRTB parser and validator",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oiime/openrtb-schema.validator.git"
+  },
+  "keywords": [
+    "OpenRTB",
+    "RTB",
+    "validation"
+  ],
+  "dependencies": {
+    "ajv": "^5.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^4.0.1",
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "test": "mocha spec/*.spec.js"
+  },
+  "author": "Itamar Maltz",
+  "license": "MIT"
+}
