@@ -27,7 +27,7 @@ module.exports = {
     bidfloor: { type: 'number', minimum: 0, default: 0 },
     bidfloorcur: { type: 'string', enum: ISO4217, default: 'USD' },
     clickbrowser: { type: 'integer', enum: [1, 2] },
-    secure: { type: 'integer', enum: [1, 2] },
+    secure: { type: 'integer', enum: [0, 1] },
     iframebuster: { items: { type: 'string' } },
     exp: { type: 'integer' },
     ext: { type: 'object' }
