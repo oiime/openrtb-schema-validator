@@ -9,7 +9,7 @@ module.exports = {
     id: { type: 'string' },
     name: { type: 'string' },
     bundle: { type: 'string' },
-    domain: { items: { type: 'string' } },
+    domain: { type: 'string' },
     storeurl: { type: 'string' },
     cat: { items: { type: 'string' } },
     sectioncat: { items: { type: 'string' } },
