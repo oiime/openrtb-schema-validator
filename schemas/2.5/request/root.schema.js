@@ -21,7 +21,7 @@ module.exports = {
     device: deviceSchema,
     user: userSchema,
     test: { type: 'integer', enum: [0, 1] },
-    at: { type: 'integer' },
+    at: { type: 'integer', enum: [1, 2] },
     tmax: { type: 'integer' },
     wseat: { items: { type: 'string' } },
     bseat: { items: { type: 'string' } },

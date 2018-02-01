@@ -1,6 +1,6 @@
 {
   "name": "openrtb-schema-validator",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "OpenRTB parser and validator",
   "main": "index.js",
   "engines": {
