@@ -5,7 +5,7 @@ module.exports = {
   type: 'object',
   required: ['bid'],
   properties: {
-    bid: { items: bidSchema, minItems: 1 },
+    bid: { items: bidSchema },
     seat: { type: 'string' },
     group: { type: 'integer', enum: [0, 1], default: 0 },
     ext: { type: 'object' }
