@@ -20,6 +20,6 @@ module.exports = {
     api: { items: { type: 'integer', enum: [1, 2, 3, 4, 5, 6] } },
     id: { type: 'string' },
     vcm: { type: 'integer', enum: [1, 2] },
-    exp: { type: 'object' }
+    ext: { type: 'object' }
   }
 }
